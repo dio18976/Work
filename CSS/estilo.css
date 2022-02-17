@@ -1,0 +1,98 @@
+﻿﻿.menu{
+      padding:0;
+      margin:0;
+      list-style:none;
+      background-color:rgba(100%,100%,100%,0%);
+}
+
+a{
+     color:white;
+     text-decoration:none;
+     display:block;
+     padding:10px;
+     font-family:"Arial";
+}
+.titulo{
+   text-align:center;
+   color: white;
+   font-family:"Century Gothic";
+   font-size: 100px;
+}
+
+
+.barra{
+  text-align: right;
+}
+.wwf{
+  font-size: 27px;
+  font-family:"Arial";
+}
+.hori{
+     display:inline-block;
+}
+
+.dropcontenido{
+     position:absolute;
+     visibility:hidden;
+     opacity:0;
+     transition: opacity 1s,visibility 0s;
+     
+}
+
+a:hover{ 
+     color:white;
+     background-color:rgba(100%,100%,100%,20%);
+}
+
+a:hover+.dropcontenido{ 
+     visibility:visible;
+     opacity:1;
+     transition: opacity 1s,visibility 1s;
+}
+
+.dropcontenido:hover{
+     visibility:visible;
+     opacity:1;
+     transition: opacity 1s,visibility 1s;
+}
+.p [name="titulo"]{
+  font-size:70px;
+}
+/*footer
+{
+    margin-top:50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color:rgba(100%,100%,100%,80%)
+}*/
+.formulario{
+  color: white;
+}
+#header-top {
+  position:fixed;
+  z-index:1000;
+  top:0;
+  max-width:1000px;
+  width:100%;
+  box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+#content {
+  width: 1180px;
+  min-height: 100%;
+  margin: auto;
+  position: relative;
+  padding: 20px; 
+  padding-top: 50px;
+  padding-bottom: -202px;
+  padding-right: 50px;
+}
+#footer {
+  width: 100%;
+  height: 200px;
+  background: #333;
+  border-top: 2px solid #000;
+  position: absolute;
+  bottom: 0;
+}

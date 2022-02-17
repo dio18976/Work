@@ -1,0 +1,12 @@
+git status : para saber el estatus del git 
+cd : para acceder a los ficheros de la maquina
+git add /*Nombre del archivo.jpg,html,etc*/: para agregar archivos al git
+git add -A : Parafgregar todos los archivos al git
+git rm --cached /*Nombre del archivo.jpg,html,etc*/ : Para eliminar archivo del git
+git commit -m "Mensaje":para identificar que se hizo en este punto
+git log : consultar la lista de commits
+git checkout (Este el el identificador del comit ue nos dio 'git log')25fa0ff15acfe896ff6c64cf3166a0fb125621ef: sirve para regresar a versiones
+git checkout :nos regresa a la version del ultimo comit 
+git config --global user.name"nombre" : para configurar usuario
+git config --global user.email"correo" : para configurar correo
+
