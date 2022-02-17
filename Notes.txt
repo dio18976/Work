@@ -9,4 +9,4 @@ git checkout (Este el el identificador del comit ue nos dio 'git log')25fa0ff15a
 git checkout :nos regresa a la version del ultimo comit 
 git config --global user.name"nombre" : para configurar usuario
 git config --global user.email"correo" : para configurar correo
-
+xdxd
